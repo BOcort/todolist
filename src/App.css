@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style: none;
+}
+
+.todo {
+  text-align: center;
+
+}
+
+.todo form {
+  width: 80%;
+
+}
+
+.todo input {
+  width: 70%;
+  border-radius: 20px;
+}
+.todo button {
+  width: 20%;
+  background-color: grey;
+  color: red;
+  font-weight: bold;
+  border-radius:20px ;
+}
+
+.list-banyak {
+  flex-wrap: wrap;
+  height: 50cm;
+  width: auto;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+}
+
+.list-banyak input {
+  width: 30px;
+}
